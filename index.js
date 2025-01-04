@@ -6,7 +6,7 @@ const cors = require("cors");
 const crypto = require("crypto");
 const { validarCampos } = require("./middlewares/validar-campos.js");
 
-const PORT = process.env.PORT || 4005;
+const PORT = process.env.PORT || 4010;
 
 const app = express();
 
